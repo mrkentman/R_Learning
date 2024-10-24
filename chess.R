@@ -12,4 +12,5 @@ chess_rating_dif <- chess_cleaned %>%
 
 vis <- ggplot(chess_rating_dif, aes(x=turns, y=rating_diff)) +
   geom_point(aes(color=winner))
-vis
+
+colnames(chess_rating_dif)
