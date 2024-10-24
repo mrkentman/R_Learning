@@ -15,3 +15,6 @@ vis <- ggplot(chess_rating_dif, aes(x=turns, y=rating_diff)) +
 
 colnames(chess_rating_dif)
 head(chess_rating_dif)
+
+chess_turns <- chess_cleaned %>%
+  select(game_id, turns)
