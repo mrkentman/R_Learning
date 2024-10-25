@@ -18,6 +18,6 @@ relationship between how much of a country's population were connected to the in
 life expectancy. Overall a simple plot but getting used to ggplot and trying to manipulate
 it without having to look things up all the time.
 
-<br/>
-
-![screenshot](https://github.com/user-attachments/assets/885045a2-6a23-4b0b-94cc-8ccda3792bbf)
+<p align="center">
+  <img src="/2024/Week 43 - World Factbook" width="60%">
+</p>
