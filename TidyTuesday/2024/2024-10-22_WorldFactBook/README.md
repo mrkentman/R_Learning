@@ -1,5 +1,6 @@
 <h1 align="center"> The CIA World Factbook </h1>
 
+
 This week we're exploring the [CIA World Factbook](https://www.cia.gov/the-world-factbook/)! 
 The dataset this week comes from the [CIA Factbook, Country Comparisons, 2014](https://www.cia.gov/the-world-factbook/references/guide-to-country-comparisons),
 via the [{openintro}](https://openintrostat.github.io/openintro/) R package,
@@ -9,6 +10,8 @@ via [this post on LinkedIn](https://www.linkedin.com/posts/andrescaceresrossi_rs
 > The *World Factbook* provides basic intelligence on the history, people, government, 
 > economy, energy, geography, environment, communications, transportation, military, 
 > terrorism, and transnational issues for 265 world entities.
+
+[Link](https://github.com/rfordatascience/tidytuesday/tree/master/data/2024/2024-10-22) to the orginal post.
 
 <h2 align="center"> My Plot </h2>
 
