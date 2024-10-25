@@ -10,6 +10,11 @@ via [this post on LinkedIn](https://www.linkedin.com/posts/andrescaceresrossi_rs
 > economy, energy, geography, environment, communications, transportation, military, 
 > terrorism, and transnational issues for 265 world entities.
 
-# Test title
+# My plot
 
+> This is my second time trying out the weekly TidyTuesday challenge. I tried to graph the
+> relationship between how much of a country's population were connected to the internet
+> (as a way of indicating how technologically advanced the country is) compared to the
+> life expectancy. Overall a simple plot but getting used to ggplot and trying to manipulate
+> it without having to look things up all the time.
 
