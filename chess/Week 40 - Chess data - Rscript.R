@@ -48,7 +48,7 @@ rating_diff_vs_turns_heat_map <- ggplot(rating_diff, aes(x=turns, y=rating_dif))
 rating_diff_vs_turns_heat_map
 
 #--------------------------------------------------------------------------------------------
-#Plot 4 + 5: Bar charts showing most popular openings when white or black won
+#Plot 4 + 5 + 6: Bar charts showing most popular openings when white or black won
 #--------------------------------------------------------------------------------------------
 
 #Selects games where black won, summaries each game on the overall opening and counts them
@@ -111,4 +111,3 @@ all_openings_by_color_top_10_graph
 #--------------------------------------------------------------------------------------------
 # TO DO: Section comparing the win rates for white and black based on the difference in ratings between the two sides
 #--------------------------------------------------------------------------------------------
-rating_diff
