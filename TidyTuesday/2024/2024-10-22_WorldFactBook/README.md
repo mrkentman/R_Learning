@@ -19,5 +19,5 @@ life expectancy. Overall a simple plot but getting used to ggplot and trying to 
 it without having to look things up all the time.
 
 <p align="center">
-  <img src="/TidyTuesday/2024/2024-10-22_WorldFactBook/worldfactbook_plot1.png" width="60%">
+  <img src="/TidyTuesday/2024/2024-10-22_WorldFactBook/worldfactbook_plot1.png" width="80%">
 </p>
