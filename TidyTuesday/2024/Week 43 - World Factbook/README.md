@@ -19,4 +19,5 @@ life expectancy. Overall a simple plot but getting used to ggplot and trying to 
 it without having to look things up all the time.
 
 <br/>
+
 ![screenshot](https://github.com/user-attachments/assets/885045a2-6a23-4b0b-94cc-8ccda3792bbf)
