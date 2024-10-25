@@ -10,7 +10,7 @@ via [this post on LinkedIn](https://www.linkedin.com/posts/andrescaceresrossi_rs
 > economy, energy, geography, environment, communications, transportation, military, 
 > terrorism, and transnational issues for 265 world entities.
 
-<h2 align="center"> My plot </h2>
+<h2 align="center"> My Plot </h2>
 
 This is my second time trying out the weekly TidyTuesday challenge. I tried to graph the
 relationship between how much of a country's population were connected to the internet
@@ -19,5 +19,5 @@ life expectancy. Overall a simple plot but getting used to ggplot and trying to 
 it without having to look things up all the time.
 
 <p align="center">
-  <img src="/2024/2024-10-22_WorldFactBook/worldfactbook_plot1.png" width="60%">
+  <img src="/TidyTuesday/2024/2024-10-22_WorldFactBook/worldfactbook_plot1.png" width="60%">
 </p>
