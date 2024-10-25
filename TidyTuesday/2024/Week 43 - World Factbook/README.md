@@ -16,7 +16,7 @@ This is my second time trying out the weekly TidyTuesday challenge. I tried to g
 relationship between how much of a country's population were connected to the internet
 (as a way of indicating how technologically advanced the country is) compared to the
 life expectancy. Overall a simple plot but getting used to ggplot and trying to manipulate
-it without having to look things up all the time.
+it without having to look things up all the time.\n\n
 
 
 ![screenshot](https://github.com/user-attachments/assets/885045a2-6a23-4b0b-94cc-8ccda3792bbf)
