@@ -1,4 +1,4 @@
-# The CIA World Factbook
+<h1 align="center"> The CIA World Factbook </h1>
 
 This week we're exploring the [CIA World Factbook](https://www.cia.gov/the-world-factbook/)! 
 The dataset this week comes from the [CIA Factbook, Country Comparisons, 2014](https://www.cia.gov/the-world-factbook/references/guide-to-country-comparisons),
@@ -10,7 +10,7 @@ via [this post on LinkedIn](https://www.linkedin.com/posts/andrescaceresrossi_rs
 > economy, energy, geography, environment, communications, transportation, military, 
 > terrorism, and transnational issues for 265 world entities.
 
-# My plot
+<h2 align="center"> My plot </h2>
 
 This is my second time trying out the weekly TidyTuesday challenge. I tried to graph the
 relationship between how much of a country's population were connected to the internet
@@ -18,6 +18,6 @@ relationship between how much of a country's population were connected to the in
 life expectancy. Overall a simple plot but getting used to ggplot and trying to manipulate
 it without having to look things up all the time.
 
-
-<img src="/2024/2024-10-22_WorldFactBook/worldfactbook_plot1.png" width="60%">
-
+<p align="center">
+  <img src="/2024/2024-10-22_WorldFactBook/worldfactbook_plot1.png" width="60%">
+</p>
