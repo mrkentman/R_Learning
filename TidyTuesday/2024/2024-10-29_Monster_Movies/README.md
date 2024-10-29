@@ -1,4 +1,4 @@
-<h1 align="center"> 'Monster Movies </h1>
+<h1 align="center"> Monster Movies </h1>
 
 
 This week we're exploring "monster" movies: movies with "monster" in their title!
