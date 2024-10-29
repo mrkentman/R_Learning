@@ -24,3 +24,5 @@ plot_data <- monster_movies %>%
   
 
 test_table <- table(plot_data)
+
+#work out how to count the occurence of each genre for each year and then use that to create a top 5 ranks for each  year then make a bump chart to show the changes to the top 5 genres for monster movies over the last how so many years
