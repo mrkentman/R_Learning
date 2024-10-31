@@ -1,7 +1,7 @@
 library(dplyr)
 library(tidyr)
 library(ggplot2)
-library(tidyverse)
+#library(tidyverse)
 library(tidytuesdayR)
 
 #Loading the data
@@ -11,18 +11,18 @@ monster_movie_genres <- tuesdata$monster_movie_genres
 monster_movies <- tuesdata$monster_movies
 
 #Wrangling the data
-plot_data <- monster_movies %>%
+sorted_data <- monster_movies %>%
+  #Merging data bases to contain number of times a genre has appeared per year
   select(tconst,year) %>%
   merge(monster_movie_genres, by="tconst") %>%
-  arrange(genres) %>%
   select(-tconst) %>%
-  group_by(year) %>%
-  summarise(n=n())
-  #add_column(value = 1) #%>%
-  #pivot_wider(names_from = genres, values_from=value) #%>%
-  #arrange(year)
+  table() %>%
+  as.data.frame() %>%
+  pivot_wider(names_from = genres, values_from = Freq)
   
+sorted_data[sorted_data==0] <- NA
 
-test_table <- table(plot_data)
+plot_data <- data.frame(t(sorted_data[-1]))
+colnames(plot_data) <- sorted_data[,1]
 
-#work out how to count the occurence of each genre for each year and then use that to create a top 5 ranks for each  year then make a bump chart to show the changes to the top 5 genres for monster movies over the last how so many years
+#Ranking each genre per year
