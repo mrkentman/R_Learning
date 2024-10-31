@@ -3,6 +3,7 @@ library(tidyr)
 library(ggplot2)
 #library(tidyverse)
 library(tidytuesdayR)
+library(data.table)
 
 #Loading the data
 tuesdata <- tidytuesdayR::tt_load(2024, week=44)
@@ -20,9 +21,12 @@ sorted_data <- monster_movies %>%
   as.data.frame() %>%
   pivot_wider(names_from = genres, values_from = Freq)
   
-sorted_data[sorted_data==0] <- NA
+rownames(sorted_data) <- 
 
-plot_data <- data.frame(t(sorted_data[-1]))
-colnames(plot_data) <- sorted_data[,1]
+plot_data <- transpose(sorted_data)
+names(plot_data) <- plot_data[1,]
+plot_data <- plot_data[-1,]
+rownames(plot_data) <- colnames(sorted_data[-1])
 
-#Ranking each genre per year
+#Working out culmative frequency for each genre
+#plot_data$cumulative_freq <- cumsum(plot_data)
