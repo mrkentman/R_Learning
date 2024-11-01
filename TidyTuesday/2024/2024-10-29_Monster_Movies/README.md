@@ -10,7 +10,6 @@ This week we're exploring "monster" movies: movies with "monster" in their title
 >Thank you to [Jon Harmon](https://github.com/jonthegeek) for curating this week's dataset.
 
 [Link](https://github.com/rfordatascience/tidytuesday/blob/master/data/2024/2024-10-29/readme.md) to the orginal post.
-
 <h2 align="center"> My Plot </h2>
 
 I wanted to try and make a bump chart showing the ranks of the most popular genres each year but I struggled to work out how to rank them so instead I made a graph showing the genres that appeared the most.
