@@ -19,3 +19,5 @@ I wasn't sure how to best go about working out the culmative frequencies for eac
 <p align="center">
   <img src="/TidyTuesday/2024/2024-10-29_Monster_Movies/monstermovies_plot.png" width="80%">
 </p>
+
+Need to make sure the grammer/spelling is correct on the plot as well before uploading xD
