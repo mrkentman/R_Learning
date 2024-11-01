@@ -17,7 +17,7 @@ I wanted to try and make a bump chart showing the ranks of the most popular genr
 I wasn't sure how to best go about working out the culmative frequencies for each genre without having to make a seperate data frame for each. I'm sure there is a much nicer way to go about calculating the culmative frequencies for each. Maybe in the future when I get better with R I can revisit this and clean it up/make the orginial bump chart I invisioned.
 
 <p align="center">
-  <img src="/TidyTuesday/2024/2024-10-29_Monster_Movies/monstermovies_plot.png" width="80%">
+  <img src="/TidyTuesday/2024/2024-10-29_Monster_Movies/monstermovie_plot.png" width="80%">
 </p>
 
 Need to make sure the grammer/spelling is correct on the plot as well before uploading xD
