@@ -1,55 +1,114 @@
 library(dplyr)
-library(ggplot2)
-library(ggrepel)
-library(tidytuesdayR)
 library(tidyr)
+library(ggplot2)
+library(tidytuesdayR)
 
 #Loading the data
-tuesdata <- tidytuesdayR::tt_load(2024, week=43)
-cia_factbook <- tuesdata$cia_factbook
+tuesdata <- tidytuesdayR::tt_load(2024, week=44)
+
+monster_movie_genres <- tuesdata$monster_movie_genres
+monster_movies <- tuesdata$monster_movies
 
 #Wrangling the data
-head(cia_factbook)
 
-top_economies <- cia_factbook %>%
-  na.exclude() %>%
-  filter(grepl('United States|China|Japan|Germany|France|United Kingdom|Brazil|Italy|Russia|India', country)) %>%
-  mutate(top10_econ = 1)
+#Merging data bases to contain number of times a genre has appeared per year in the last 40 years
+sorted_data <- monster_movies %>%
+  select(tconst,year) %>%
+  merge(monster_movie_genres, by="tconst") %>%
+  select(-tconst) %>%
+  table() %>%
+  as.data.frame() %>%
+  pivot_wider(names_from = genres, values_from = Freq) %>%
+  tail(n = 40) %>%
+  select(-year)
+  
+sorted_data$year <- 1985:2024
+  
 
-plot_data <- cia_factbook %>%
-  select(country,population, internet_users, life_exp_at_birth) %>%
-  na.exclude() %>%
-  mutate(internet_perc = (internet_users / population) * 100) %>%
-  full_join(top_economies) %>%
-  arrange(top10_econ)
+#Finding the 10 most used genres in the last 40 years
+popular_genres <- monster_movies %>%
+  filter(year >= 1985) %>%
+  select(tconst) %>%
+  merge(monster_movie_genres, by = "tconst") %>%
+  group_by(genres) %>%
+  summarise(count=n()) %>%
+  arrange(desc(count)) %>%
+  head(10)
 
-plot_data[is.na(plot_data)] <- 0
+#Making new df's for  each of the most used genres so we can calculate the culmative count
+horror_data <- sorted_data %>%
+  select(year,Horror) %>%
+  mutate(Horror = cumsum(Horror))
 
+comedy_data <- sorted_data %>%
+  select(year,Comedy) %>%
+  mutate(Comedy = cumsum(Comedy))
 
-#Define texts and getting fonts
-st <- "The World Factbook provides basic intelligence on the history, people, government, economy, energy, 
-geography, environment, communications, transportation, military, terrorism, and transnational issues 
-for 265 world entities.
-\nPercentage of a country's population using the internet was calculated using the provided data and compared
-to life expectancy at birth to infer whether there was a correlation between the two. The highest performing 
-economies of 2014 have also been highlighted."
-caption="Data: CIA World Factbook (2014) "
+doc_data <- sorted_data %>%
+  select(year,Documentary) %>%
+  mutate(Documentary = cumsum(Documentary))
 
+drama_data <- sorted_data %>%
+  select(year,Drama) %>%
+  mutate(Drama = cumsum(Drama))
 
-#Making the plot
-plot_data %>%
-  ggplot(aes(y=life_exp_at_birth, x=internet_perc)) +
-  geom_smooth(se=FALSE, color = "blue", linewidth = 2) +
-  geom_point(shape = 21, size = 3, fill = ifelse(plot_data$top10_econ==1,"red","white"), colour = "black", stroke = 1.2) +
-  geom_text_repel(aes(label=ifelse(top10_econ==1, country,"")),max.overlaps = Inf, box.padding = 0.6, color = "black",size = 5, bg.color = "grey30", fontface = "bold") +
-  theme(panel.background = element_rect(fill = "#ccd6e6"),
+adv_data <- sorted_data %>%
+  select(year,Adventure) %>%
+  mutate(Adventure = cumsum(Adventure))
+
+ani_data <- sorted_data %>%
+  select(year,Animation) %>%
+  mutate(Animation = cumsum(Animation))
+
+act_data <- sorted_data %>%
+  select(year,Action) %>%
+  mutate(Action = cumsum(Action))
+
+scifi_data <- sorted_data %>%
+  select(year,'Sci-Fi') %>%
+  rename(scifi='Sci-Fi') %>%
+  mutate(SciFi = cumsum(scifi))
+
+fant_data <- sorted_data %>%
+  select(year,Fantasy) %>%
+  mutate(Fantasy = cumsum(Fantasy))
+
+fam_data <- sorted_data %>%
+  select(year,Family) %>%
+  mutate(Family = cumsum(Family))
+
+plot_data <- cbind(act_data, adv_data, ani_data, comedy_data, doc_data, drama_data, fam_data, fant_data, horror_data, scifi_data) %>%
+  select("year",Action, Adventure, Animation, Comedy, Documentary, Drama, Family, Fantasy, Horror, SciFi) %>%
+  pivot_longer(cols = c("Action","Adventure","Animation","Comedy","Documentary","Drama","Family","Fantasy","Horror","SciFi"),names_to ="genre", values_to="culmfreq")
+
+#Defining texts
+st <- "What genres are the most represented across 'monster' movies? Films released within the last 40 years
+were categorised based on upto three main genres the film. For example, the hit 2001 Pixar movie
+'Monsters Inc' is categorised as an adventure, comedy, as well as animated."
+
+#Plotting the data
+ggplot(plot_data, aes(x=year,y=culmfreq,group=genre,color=genre)) +
+  geom_line(linewidth=2) +
+  theme(plot.background = element_rect(fill="#3d3a39"),
+        panel.background = element_rect(fill="#3d3a39"),
+        panel.grid.major = element_line(color="black",size=1.5),
         panel.grid.minor = element_blank(),
-        panel.border = element_rect(color = "Black", fill = NA, linewidth = 1),
-        plot.title = element_text(size = 25, face="bold"),
-        plot.subtitle = element_text(size=13,face="italic"),
-        axis.title = element_text(size=13, face="bold"),
-        axis.text = element_text(size = 11,color="black",face="italic")) +
-  labs(y="Life Expectancy at Birth (yrs)", x="% Population Connected to Internet",
-       title="Relationship between percentage of internet users and life \nexpectancy for given countries",
-       subtitle=st, caption=caption)
+        panel.border = element_rect(color = "white", fill = NA, linewidth = 1.5),
+        plot.title = element_text(size= 30, face="bold",color="orange"),
+        plot.subtitle = element_text(size=13, face="italic", color="orange"),
+        plot.caption = element_text(face ="italic",color="orange"),
+        axis.title = element_text(size=13, face="bold", color="orange"),
+        axis.text = element_text(size=11, color="orange", face="italic"),
+        legend.title = element_text(size=15, face="bold", color="orange"),
+        legend.background = element_rect(fill="#3d3a39"),
+        legend.text = element_text(size=13, face="bold", color="orange")
+        ) +
+  labs(x="Year", y="Culmative Frequency",
+       title = "Culmative frequencies of the top 10 most popular\ngenres for 'Monster' movies",
+       subtitle = st,
+       caption = "Data: Internet Movie Database (IMDb) 2024",
+       color="Genre")
+    
 
+test <- filter(monster_movies, year == 2001)
+View(test)
