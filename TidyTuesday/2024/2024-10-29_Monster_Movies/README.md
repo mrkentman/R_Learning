@@ -13,7 +13,9 @@ This week we're exploring "monster" movies: movies with "monster" in their title
 
 <h2 align="center"> My Plot </h2>
 
-test text
+I wanted to try and make a bump chart showing the ranks of the most popular genres each year but I struggled to work out how to rank them so instead I made a graph showing the genres that appeared the most.
+
+I wasn't sure how to best go about working out the culmative frequencies for each genre without having to make a seperate data frame for each. I'm sure there is a much nicer way to go about calculating the culmative frequencies for each. Maybe in the future when I get better with R I can revisit this and clean it up/make the orginial bump chart I invisioned.
 
 <p align="center">
   <img src="/TidyTuesday/2024/2024-10-29_Monster_Movies/monstermovies_plot.png" width="80%">
