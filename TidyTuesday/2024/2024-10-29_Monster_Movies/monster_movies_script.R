@@ -21,9 +21,8 @@ sorted_data <- monster_movies %>%
   pivot_wider(names_from = genres, values_from = Freq) %>%
   tail(n = 40) %>%
   select(-year)
-  
+
 sorted_data$year <- 1985:2024
-  
 
 #Finding the 10 most used genres in the last 40 years
 popular_genres <- monster_movies %>%
@@ -82,9 +81,10 @@ plot_data <- cbind(act_data, adv_data, ani_data, comedy_data, doc_data, drama_da
   pivot_longer(cols = c("Action","Adventure","Animation","Comedy","Documentary","Drama","Family","Fantasy","Horror","SciFi"),names_to ="genre", values_to="culmfreq")
 
 #Defining texts
-st <- "What genres are the most represented across 'monster' movies? Films released within the last 40 years
-were categorised based on upto three main genres the film. For example, the hit 2001 Pixar movie
-'Monsters Inc' is categorised as an adventure, comedy, as well as animated."
+st <- "What are the most popular genres for 'monster' movies? Movies released over the past 40 years were
+categorised into at least three genres and the culmative frequency of the the top 10 were graphed over time.
+For example, the 2001 hit Pixar film 'Monsters Inc' is categorised as a adventure, comedy and animation. Whereas
+the 2001 film 'Monster's Ball' is categorised only as a drama and romance."
 
 #Plotting the data
 ggplot(plot_data, aes(x=year,y=culmfreq,group=genre,color=genre)) +
@@ -96,19 +96,15 @@ ggplot(plot_data, aes(x=year,y=culmfreq,group=genre,color=genre)) +
         panel.border = element_rect(color = "white", fill = NA, linewidth = 1.5),
         plot.title = element_text(size= 30, face="bold",color="orange"),
         plot.subtitle = element_text(size=13, face="italic", color="orange"),
-        plot.caption = element_text(face ="italic",color="orange"),
+        plot.caption = element_text(face="italic", color="orange"),
         axis.title = element_text(size=13, face="bold", color="orange"),
         axis.text = element_text(size=11, color="orange", face="italic"),
         legend.title = element_text(size=15, face="bold", color="orange"),
         legend.background = element_rect(fill="#3d3a39"),
         legend.text = element_text(size=13, face="bold", color="orange")
-        ) +
+  ) +
   labs(x="Year", y="Culmative Frequency",
        title = "Culmative frequencies of the top 10 most popular\ngenres for 'Monster' movies",
+       caption = "Data: IMDb (2024)",
        subtitle = st,
-       caption = "Data: Internet Movie Database (IMDb) 2024",
        color="Genre")
-    
-
-test <- filter(monster_movies, year == 2001)
-View(test)
