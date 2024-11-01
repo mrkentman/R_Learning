@@ -24,7 +24,6 @@ sorted_data <- monster_movies %>%
 
 sorted_data$year <- 1985:2024
 
-
 #Finding the 10 most used genres in the last 40 years
 popular_genres <- monster_movies %>%
   filter(year >= 1985) %>%
