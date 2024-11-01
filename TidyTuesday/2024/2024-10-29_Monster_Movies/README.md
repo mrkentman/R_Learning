@@ -16,4 +16,5 @@ This week we're exploring "monster" movies: movies with "monster" in their title
 test text
 
 <p align="center">
+  <img src="/TidyTuesday/2024/2024-10-29_Monster_Movies/monstermovies_plot.png" width="80%">
 </p>
