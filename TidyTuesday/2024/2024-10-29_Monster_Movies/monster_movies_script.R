@@ -86,6 +86,7 @@ st <- "What are the most popular genres for 'monster' movies? Movies released ov
 categorised into at least three genres and the culmative frequency of the the top 10 were graphed over time.
 For example, the 2001 hit Pixar film 'Monsters Inc' is categorised as a adventure, comedy and animation. Whereas
 the 2001 film 'Monster's Ball' is categorised only as a drama and romance."
+
 #Plotting the data
 ggplot(plot_data, aes(x=year,y=culmfreq,group=genre,color=genre)) +
   geom_line(linewidth=2) +
