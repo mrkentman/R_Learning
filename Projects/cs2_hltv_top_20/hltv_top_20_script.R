@@ -1,7 +1,7 @@
 library(readr)
 library(dplyr)
 library(tidyr)
-library(ggplot2
+library(ggplot2)
 
 #importing and cleaning up data
 hltv_top20 <- read.csv("https://raw.githubusercontent.com/mrkentman/R_Learning/refs/heads/cs2_top20/Projects/cs2_hltv_top_20/hltv_top20.csv")
