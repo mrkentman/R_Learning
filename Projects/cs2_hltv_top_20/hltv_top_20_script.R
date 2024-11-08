@@ -7,12 +7,18 @@ library(maps)
 #Importing and cleaning up data
 hltv_top20 <- read.csv("https://raw.githubusercontent.com/mrkentman/R_Learning/refs/heads/cs2_top20/Projects/cs2_hltv_top_20/hltv_top20.csv")
 player_info <- read.csv("https://raw.githubusercontent.com/mrkentman/R_Learning/refs/heads/cs2_top20/Projects/cs2_hltv_top_20/player_info.csv")
-
+continent_data <- read.csv("https://raw.githubusercontent.com/dbouquin/IS_608/refs/heads/master/NanosatDB_munging/Countries-Continents.csv")
 
 #Clearning up the names
 names(hltv_top20) <- c('player_name','rank_2013', 'rank_2014', 'rank_2015', 'rank_2016', 'rank_2017','rank_2018',
                        'rank_2019', 'rank_2020', 'rank_2021', 'rank_2022', 'rank_2023', 'total_rank1',
                        'total_rank2', 'total_rank3', 'total_top3','total_4_5', 'total_6_10', 'total_11_20', 'total_top20')
+
+continent_data <- rename(continent_data, region = Country)
+continent_data$Continent[continent_data$region == "Russian Federation"] <- "Europe"
+continent_data$region[continent_data$region == "Russian Federation"] <- "Russia"
+continent_data$region[continent_data$region == "US"] <- "United States"
+
 
 #Combining both datasets
 combined_data <- hltv_top20 %>%
@@ -30,10 +36,21 @@ total_player_countries <- combined_data %>% #Finding total appearances in the to
   group_by(country) %>%
   summarise("total_appearances" = sum(total_top20))
 
-hltv_countries <- unique_player_countries %>% #Combining both and calculating average number of appearances per player from each country
+hltv_countries1 <- unique_player_countries %>% #Combining both and calculating average number of appearances per player from each country
   merge(total_player_countries, by = "country") %>%
   mutate(average_per_player = total_appearances / unique_players) %>%
   rename("region" = "country")
+
+hltv_countries2 <- hltv_countries1 %>%
+  merge(continent_data, by = "region")
+
+#Plot texts + themes
+map_title <- "Total appearances in HLTV's Top 20 player rankings\nper country for CSGO & CS2 between 2013 and 2023"
+custom_theme <- theme(
+  plot.background = element_rect(fill="#d3dde0"),
+  panel.background = element_rect(fill="#d3dde0"),
+  legend.background = element_rect(fill="#d3dde0")
+)
 
 #Making the map
 #Getting the data and using that to make a blank world map
@@ -42,35 +59,58 @@ world <- map_data("world") %>%
 
 world_base <- ggplot(world, aes(x=long, y=lat, group=group)) +
   geom_polygon(fill="grey", color="black") +
+  custom_theme + 
   theme(
     axis.title = element_blank(),
     axis.text = element_blank(),
     axis.ticks = element_blank(),
     panel.grid = element_blank()
-    ) +
+  ) +
   coord_fixed(1.3)
 
-#Plot texts
-title <- "Total appearances in HLTV's Top 20 player rankings per country\nbetween 2013 and 2023"
-
 #Joining the world data to the hltv countries data to use to fill in the blank map
-hltv_map_data <- inner_join(world, hltv_countries, by="region")
+hltv_map_data <- inner_join(world, hltv_countries2, by="region")
 
 hltv_world_map <- world_base +
-  geom_polygon(data = hltv_map_data, aes(fill=total_appearances)) +
+  geom_polygon(data = hltv_map_data, aes(fill=total_appearances), color="black") +
   scale_fill_continuous(low="#e3c5c5", high="#cf3434") +
   theme(
-    plot.title = element_text(face="bold", size=15),
-    plot.caption = element_text(face="italic", size=8)
+    plot.title = element_text(face="bold", size=20),
+    plot.caption = element_text(face="italic", size=8),
+    legend.title = element_text(face="bold")
   ) +
   labs(
-    title = title,
+    title = map_title,
     fill = "Total Appearances",
     caption = "Data: HLTV.org (2013-2023)"
   )
 
-hltv_europe_map <- hltv_world_map + coord_fixed(xlim=c(-20, 50), ylim=c(29, 70), ratio=1.3) +
-  labs()
+hltv_world_map
+
+#Creating an additional map focused on Europe
+hltv_europe_map <- hltv_world_map + coord_fixed(xlim=c(-20, 50), ylim=c(29, 70), ratio=1.3)
 
 hltv_europe_map
-hltv_world_map
+
+
+#Bar charts showing for countries for the highest frequnecies of appearances and players in the top 20
+hltv_top20_bar <- ggplot(hltv_countries2, aes(x=total_appearances, y=reorder(region, total_appearances))) +
+  geom_bar(stat = "identity",aes(fill=Continent), color="black") +
+  scale_fill_manual(values = c("orange", "red", "#3e93b5", "yellow", "#008100")) +
+  custom_theme +
+  theme(
+    panel.grid = element_blank(),
+    plot.title = element_text(face="bold", size=20),
+    legend.title = element_text(face="bold"),
+    axis.title = element_text(size = 15),
+    axis.title.y = element_blank(),
+    axis.text = element_text(face="bold",size=10),
+    axis.ticks = element_blank(),
+    panel.background = element_rect(fill="white", color="black")
+  ) +
+  labs(
+    title = map_title,
+    x="Total appearances"
+  )
+
+hltv_top20_bar
