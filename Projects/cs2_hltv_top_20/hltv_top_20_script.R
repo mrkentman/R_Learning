@@ -1,4 +1,4 @@
-#Loading libaries
+#Loading libraries
 library(readr)
 library(dplyr)
 library(ggplot2)
@@ -25,7 +25,7 @@ combined_data <- hltv_top20 %>%
   merge(player_info, by="player_name")
 
 
-#Section 1: Making a map graphic to show the frequency of countries represented in the top 20
+#Section 1: Making graphics to show the frequency of countries represented in the top 20
 #Wrangling the data
 unique_player_countries <- combined_data %>% #Finding the number of unique players that have appeared in the top 20
   group_by(country) %>%
@@ -70,7 +70,7 @@ bar_theme <- theme(
 )
 
 #Making the map
-#Getting the data and using that to make a blank world map
+#Getting the map data and using that to make a blank world map
 world <- map_data("world") %>%
   filter(region != "Antarctica")
 
@@ -102,7 +102,7 @@ hltv_world_map <- world_base +
 hltv_world_map
 
 #Creating an additional map focused on Europe
-hltv_europe_map <- hltv_world_map + coord_fixed(xlim=c(-20, 50), ylim=c(29, 70), ratio=1.3)
+hltv_europe_map <- hltv_world_map + coord_fixed(xlim=c(-20, 50), ylim=c(32, 70), ratio=1.3)
 
 hltv_europe_map
 
