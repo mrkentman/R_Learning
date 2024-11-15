@@ -1,6 +1,7 @@
 #Loading libraries
 library(readr)
 library(dplyr)
+library(tidyverse)
 library(ggplot2)
 library(maps)
 
@@ -133,3 +134,72 @@ hltv_top20_U_bar <- ggplot(hltv_countries2, aes(x=unique_players, y=reorder(regi
   )
 
 hltv_top20_U_bar
+
+#Line graph showing the amount of players from each country each year 
+#Making a df for each year then combining them (must be a better way than doing this)
+only_2013 <- combined_data %>%
+  filter(rank_2013 > 0) %>%
+  group_by(country) %>%
+  summarise("2013"=n())
+  
+only_2014 <- combined_data %>%
+  filter(rank_2014 > 0) %>%
+  group_by(country) %>%
+  summarise("2014"=n())
+
+only_2015 <- combined_data %>%
+  filter(rank_2015 > 0) %>%
+  group_by(country) %>%
+  summarise("2015"=n())
+
+only_2016 <- combined_data %>%
+  filter(rank_2016 > 0) %>%
+  group_by(country) %>%
+  summarise("2016"=n())
+
+only_2017 <- combined_data %>%
+  filter(rank_2017 > 0) %>%
+  group_by(country) %>%
+  summarise("2017"=n())
+
+only_2018 <- combined_data %>%
+  filter(rank_2018 > 0) %>%
+  group_by(country) %>%
+  summarise("2018"=n())
+
+only_2019 <- combined_data %>%
+  filter(rank_2019 > 0) %>%
+  group_by(country) %>%
+  summarise("2019"=n())
+
+only_2020 <- combined_data %>%
+  filter(rank_2020 > 0) %>%
+  group_by(country) %>%
+  summarise("2020"=n())
+
+only_2021 <- combined_data %>%
+  filter(rank_2021 > 0) %>%
+  group_by(country) %>%
+  summarise("2021"=n())
+
+only_2022 <- combined_data %>%
+  filter(rank_2022 > 0) %>%
+  group_by(country) %>%
+  summarise("2022"=n())
+
+only_2023 <- combined_data %>%
+  filter(rank_2023 > 0) %>%
+  group_by(country) %>%
+  summarise("2023"=n())
+
+countries_timeline <- list(only_2013,only_2014,only_2015,only_2016,only_2017,only_2018,
+                           only_2019,only_2020,only_2021,only_2022,only_2023) %>%
+  reduce(full_join, by="country") #%>%
+  #pivot_longer(!country, names_to = "year", values_to = "count")
+
+countries_line_graph <- ggplot(countries_timeline, aes(x=year, y=count, group=country)) +
+  geom_line(aes(colour=country),linewidth=1) +
+  geom_point(aes(colour=country))
+
+countries_line_graph
+
