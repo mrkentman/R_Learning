@@ -141,7 +141,7 @@ only_2013 <- combined_data %>%
   filter(rank_2013 > 0) %>%
   group_by(country) %>%
   summarise("2013"=n())
-  
+
 only_2014 <- combined_data %>%
   filter(rank_2014 > 0) %>%
   group_by(country) %>%
@@ -194,12 +194,11 @@ only_2023 <- combined_data %>%
 
 countries_timeline <- list(only_2013,only_2014,only_2015,only_2016,only_2017,only_2018,
                            only_2019,only_2020,only_2021,only_2022,only_2023) %>%
-  reduce(full_join, by="country") #%>%
-  #pivot_longer(!country, names_to = "year", values_to = "count")
+  reduce(full_join, by="country") %>%
+pivot_longer(!country, names_to = "year", values_to = "count")
 
 countries_line_graph <- ggplot(countries_timeline, aes(x=year, y=count, group=country)) +
   geom_line(aes(colour=country),linewidth=1) +
   geom_point(aes(colour=country))
 
 countries_line_graph
-
