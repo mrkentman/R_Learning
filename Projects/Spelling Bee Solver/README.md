@@ -1,4 +1,4 @@
-<h1 align="centre">Spelling Bee Solver</h1>
+<h1 align="center">Spelling Bee Solver</h1>
 
 The [spelling bee](https://www.nytimes.com/puzzles/spelling-bee) is an online game found on the NYT Games page. The objective of the game is to get as many points as possible by spelling out words using the letters provided. The rules of the game are:
 
