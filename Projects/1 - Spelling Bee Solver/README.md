@@ -8,7 +8,7 @@ The [New York TImes Spelling Bee](https://www.nytimes.com/puzzles/spelling-bee) 
 * 4 letter words are worth 1 point each. For words over 4 characters long, the points rewarded is equal to the length of the word *(i.e. 5 letter words = 5 points, etc).*
 * Words that include all the given letters are known as 'panagrams' and are worth an additional 7 points!
 
-To use it you just need to use the function sb_solver which takes two string inputs. The first is the central letter and the second is the remaining letters. For example:
+To use it you just need to use the function which takes two string inputs. The first is the central letter and the second is the remaining letters. For example:
 ```{r}
 sb_solver("l", "chorpy")
 ```
