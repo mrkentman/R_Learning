@@ -20,7 +20,7 @@ sb_dictionary <- dictionary %>%
   filter(!grepl("-", word) & !grepl(" ", word)) %>%
   distinct() %>%
   mutate(word=tolower(word))
-         
+
 #Inputting todays letters
 central_letter <- "r"
 outside_letters <- "doilgh"
