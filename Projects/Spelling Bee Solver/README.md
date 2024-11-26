@@ -4,7 +4,7 @@ The [spelling bee](https://www.nytimes.com/puzzles/spelling-bee) is an online ga
 
 * All words **MUST** contain the central letter.
 * Words can only be made up of the letters provided. You don't have to use every letter and letters can be used multiple times.
-* Words have to be at least 4 characters long
+* Words have to be at least 4 characters long.
 * 4 letter words are worth 1 point each. For words over 4 characters long, the points rewarded is equal to the length of the word *(i.e. 5 letter words = 5 points, etc).*
 * Words that include all the given letters are known as 'panagrams' and are worth an additional 7 points!
 
