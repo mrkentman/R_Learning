@@ -16,7 +16,7 @@ It then prints out a list of words that it has found, alongside how many points 
 
 Some words that are found won't be eligible. This is because the NYT Spelling Bee word list doesn't include offensive, obscure, hyphenated or proper nouns.
 
-I got some assistance from ChatGPT to understand how to check strings against a reference string.
+I got some assistance from ChatGPT to understand how to parse over strings.
 
 <h2>Personal notes</h2>
 The first version I made was a little janky with changing the letters you wanted to use because you have to edit the values in the middle of the script.
