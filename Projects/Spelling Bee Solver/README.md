@@ -15,7 +15,8 @@ Some words that are found won't be eligible. This is because the NYT Spelling Be
 I got some assistance from ChatGPT to understand how to check strings against a reference string.
 
 <h2>Personal notes</h2>
-The first version I made was a little janky with changing the letters you wanted to use because you have to edit the values in the middle of the script.  
+The first version I made was a little janky with changing the letters you wanted to use because you have to edit the values in the middle of the script.
+
 I cleaned it up a bit in the second version by creating a function which took both the central letter and the remaining letters as a input and would then print the valid words (or words that are valid given the dictionary I'm using). I hopefully made it a bit easier to follow if I ever decide to come back and try to figure out what each part does by adding notes detailing what each part does.
 
 <h2>Conclusion</h2>
