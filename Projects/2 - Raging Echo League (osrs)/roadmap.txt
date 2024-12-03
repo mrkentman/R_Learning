@@ -28,8 +28,10 @@ Tiranwnn:
 - When 75 agility (see quest rewards to get you there)
 	- 50 laps of prif agility course
 	- do lap in under 1:10
+	- pick up last memorium crystal by ladder by searching rock
 	
-- 90 slayer: kill night beast
+- 90 slayer: kill dark beast
+	- get dark bow and eqiup
 
 - finish up cg tasks:
 	- mainly the 50 kc task, rest should be easy (no prayer pot, no armour, perfect armour(may be done with echo))
@@ -40,12 +42,57 @@ Tiranwnn:
 	- switch to getting mining xp (smithing can come from crystal armour/tele seeds)
 	- complete the CA's to chip away at hard/elite
 	- pray you get zalcano shard
+	
+- Zulrah:
+	- 300kc -> do when you have halred and can do sub 30 sec kills
+	- make both uniques
+	- save onyx for fury + blood fury
+	- dismantle one unique
+	
+- Misc skilling:
+	- 97 herb: 100 divine super combats
+	- mine 200 runite ore
+	- 88 smith: smith 500 runite bolts (50 bars)
+	- 90 prayer: restore full prayer in prif
+	- 70 mining: mine 200 soft clay
+	- 75 woodcutting: chop 50 magic logs
+	- 70 construction: move house to prif
+	- 20 farming: sweetcorn
+	- 57 farming: papaya tree in lletya
+
+- Look out for crystal imps:
+	- catch one
+	- get dragonstone amulet
+	- crytal acorn
+		- need to check health on 5 trees
+	- elven signet
+
+- keep crystal keys:
+	- open enhanced chests to try and get armour piece (only need one)
+		- GG's seem to be decent for crystal keys(?)
+		
+- Kill rabbit for crystal grail
+
+- Ask noen/nav to do zulrah for me to spectate
+-----------------------
+Fremmy:
+ - dks:
+	- kill a mager on the way to them
+	- trade with bardur (need a frem blade/shield or helm -> drops from dks)
+	- get elite clue for easy tele
+	- drops needed:
+		- rings: berserker, seers, archers, warriors (each is 80pts, all is extra 200pts)
+		- seercull
+		- mud battlestaff
+		- d axe
+			- use special
+			- probably make into cyrstal axe
+	- kill each 300 times for final kc league task (save for towards the ened)
+	
+
 -----------------------
 Morytania tasks:
-- Finish off GG CA':
-	- Easy ones to go (5 perfect/20 kills one trip/kc task)
-	- Finish off kc task with echo variant
-
+- Finish off GG kc task with echo
 - DO SINS OF THE FATHER
 	- Cook 20 sharks in darkmyer
 	- Burn 20 blisterwood logs
@@ -67,7 +114,7 @@ Morytania tasks:
 
 - 150 nightmare/phosanis KC
 	- Probably cant do all the CA's
-	- Learn phosanis:
+	- Learn phosanis or just try mass/group with noen & nav:
 		- need full inquis (600 points total)
 		- mace (200)
 		- staff (200)
