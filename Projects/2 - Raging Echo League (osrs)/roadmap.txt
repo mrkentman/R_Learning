@@ -13,15 +13,12 @@ Quests to do:
 PvM roadmap:
 - Can start doing ToB whenever probably
 
-- DKs for rings/daxe/seercull for points + echo orb
+- DKs for echo stuff
 	- Try and get elite clue for fast tele there
 - Attempt echo variant for 9th mastery point + ring and necklace
 
-- Get 92 slayer -> araxxor for halbred (1/40 per piece, can stay till 150 task if you go on rate for the pieces)
-- Zulrah for blowpipe + trident
+- Zulrah for blowpipe
 	- Load blowpipe with rune and dragon darts for task
-	- break down one unique for scales
-	- maybe keep a serp for venom immunity for araxxor(?)
 ------------------------
 Tiranwnn:
 
@@ -29,9 +26,6 @@ Tiranwnn:
 	- 50 laps of prif agility course
 	- do lap in under 1:10
 	- pick up last memorium crystal by ladder by searching rock
-	
-- 90 slayer: kill dark beast
-	- get dark bow and eqiup
 
 - finish up cg tasks:
 	- mainly the 50 kc task, rest should be easy (no prayer pot, no armour, perfect armour(may be done with echo))
@@ -47,7 +41,6 @@ Tiranwnn:
 	- 300kc -> do when you have halred and can do sub 30 sec kills
 	- make both uniques
 	- save onyx for fury + blood fury
-	- dismantle one unique
 	
 - Misc skilling:
 	- 97 herb: 100 divine super combats
@@ -77,22 +70,15 @@ Tiranwnn:
 -----------------------
 Fremmy:
  - dks:
-	- kill a mager on the way to them
-	- trade with bardur (need a frem blade/shield or helm -> drops from dks)
+	- kill a mager on the way to them (currently bugged)
 	- get elite clue for easy tele
 	- drops needed:
-		- rings: berserker, seers, archers, warriors (each is 80pts, all is extra 200pts)
-		- seercull
 		- mud battlestaff
-		- d axe
-			- use special
-			- probably make into cyrstal axe
 	- kill each 300 times for final kc league task (save for towards the ened)
 	
 
 -----------------------
 Morytania tasks:
-- Finish off GG kc task with echo
 - DO SINS OF THE FATHER
 	- Cook 20 sharks in darkmyer
 	- Burn 20 blisterwood logs
