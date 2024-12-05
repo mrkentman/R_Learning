@@ -1,3 +1,11 @@
+Plan for tonight;
+ - craft serp helm
+ - set kingdom up for maples for fletching arrow shafts
+ - do misc morytania tasks
+ - more zulrah for 300kc + blowpipe + CA's
+
+
+-----------------------
 Quests to do:
 - Sins of the father
 - Shades of morton
@@ -14,6 +22,8 @@ PvM roadmap:
 - Can start doing ToB whenever probably
 
 - DKs for echo stuff
+	- wait until t8 to cheese
+		- make get dharoks as well for it
 	- Try and get elite clue for fast tele there
 - Attempt echo variant for 9th mastery point + ring and necklace
 
@@ -38,10 +48,10 @@ Tiranwnn:
 	- pray you get zalcano shard
 	
 - Zulrah:
-	- 300kc -> do when you have halred and can do sub 30 sec kills
-	- make both uniques
-	- save onyx for fury + blood fury
-	
+	- 300kc
+	- get blowpipe + darts to load it (rune + dragon)
+	- do sins of the father and level to 90 crafting to make fury and blood fury
+		
 - Misc skilling:
 	- 97 herb: 100 divine super combats
 	- mine 200 runite ore
@@ -62,11 +72,9 @@ Tiranwnn:
 
 - keep crystal keys:
 	- open enhanced chests to try and get armour piece (only need one)
-		- GG's seem to be decent for crystal keys(?)
+		- GG's seem to be decent for crystal keys(?) + combat xp and slayer
 		
 - Kill rabbit for crystal grail
-
-- Ask noen/nav to do zulrah for me to spectate
 -----------------------
 Fremmy:
  - dks:
@@ -74,23 +82,103 @@ Fremmy:
 	- get elite clue for easy tele
 	- drops needed:
 		- mud battlestaff
-	- kill each 300 times for final kc league task (save for towards the ened)
+	- kill each 300 times for final kc league task
+	- probably cba with CA's
+		- is worth 200pts so maybe
+
+- duke
+		- kc tasks: 1/50/150/300
+		- kill awakened once
+		- magus ring
+		- completed axe
+		- CA's?
+		- full virtus
+
+- Vorkath
+	- kc tasks: 1/50/150/300
+		- use the bones for prayer
+	- all CAs
+	- kill 15 times without leaving
+	- kill 5 times without taking any damage from his special attacks 
+	- drops:
+		- dragonbone necklace
+		- dragonfire ward
+		- can drop visage for DFS
+		- avas assembler
+		- spare vorkath head to get stuff at taxadermist in canaffis
+
+- Maigc:
+	- Switch to lunars:
+		- 69: moonclan tele
+		- 87: catherby tele tab
+			- need to build lectern in poh
+		- 96: spellbook swap
+		
+- Get 80 agility:
+	- 25 laps of rellekka course
+	- make penguin suit and one lap of that
 	
+- Do fremmenik exiles
+	- kill a basilisk knight
+	- get jaw and make faceguard
+
+- Misc:
+	- Catch polar kebbit
+		- get noose wand by casting hunter kit spell on lunars (2 astral + 2 earth)
+	- catch sabre tooth kebbit
+		- deadfall trap need knife + logs + 
+	- unlock access to blast furnance
+		- smelt 100 mith bars
+		- smelt 100 rune bars
+			- use the ores from the priff task
+	- kill rune dragon
+		- need dragon limbs
 
 -----------------------
 Morytania tasks:
-- DO SINS OF THE FATHER
-	- Cook 20 sharks in darkmyer
+- ToB:
+	- kc tasks:
+		25/50/100
+	- get sycthe (400pts)
+		- attach both kits I already have (extra 400pt)
+	- get last justi piece (helm for 400pts)
+
+- Misc
 	- Burn 20 blisterwood logs
-	- Pickpocket vyre 50 times
+		- cut 100 as well
+	- craft a snelm
+	- pet frank in darkmyer
+	- telegrab bloody bracer in sleepe
+	- mine bit of daeylt eseence to craft a rune with
+	- make long rope shortcut in darkmeyer
+		- buy 2x long ropes (bring all gp) from darkmeyer general store (need outfit)
+	- catch a swamp lizard (small net + rope)
+	- kill vyrewatch sentienal darkmeyer
+	- kill abyssal demon in slaye tower
+	- smelt steel bar in port phasmatys
+	- feed a ghast some sweets
+	- complete werewolf agility course
+		- get ring of charos:
+			- either from creature of fenenstrain quest or pickpocketing him if quest is auto completed
+	
+- shades of morton
+	- get 100% sancticty
+	- burn 20 pyre logs
+	- open bronze chest
+	- open black chest
+	- open gold chest
+	- kill fyre shade
+	- equip a piece of the set
+		- equip full set (mostly likely not doing)
 
-	- Sepulchre to train agility:
-		- Task for every floor
-		- complete in 6:30 or less (low completion rate - may be too hard)
-		- All tools
-		- Ring of endurance (400pts)
 
-- Barrows:
+- Sepulchre to train agility:
+	- Task for every floor
+	- complete in 6:30 or less (low completion rate - may be too hard)
+	- All tools
+	- Ring of endurance (400pts)
+
+- Barrows: (keep hard clue for fast tele back to ground level)
 	- Ahrims
 	- Dharoks
 	- Guthans
@@ -105,8 +193,19 @@ Morytania tasks:
 		- mace (200)
 		- staff (200)
 		- orb (400)
+
+- Araxxor:
+	- Look into completing remaining CAs
+	- 300kc 
+	- aranea boots from smallies
+	
+- do haunted mine
+	- get salve amulet
+	- do lair of tarn razorlor to make it (e)
 -----------------------
-Soul wars:
+Soul wars: (CHECK THIS NUMBERS)
+- Do all the PvM tasks that drop essence first
+	- Big ones are zulrah and muspah it seems
 - Get enough essence for 99 runecrafting
 	- need roughly 70k to get to 99
 	- roughly 2k at natures then rest at bloods
@@ -117,3 +216,11 @@ Soul wars:
 	- need something around 270k more essence post 99
 	- can sell the bloods for extra gp as wont be needing that many runes
 -----------------------
+Misc skilling:
+ - crafting and smithing:
+	- afk thieve elves for tele seeds to convert into shards
+		- need roughly 90 (86.01) for 99 (does not take into account shards from finishing zalc/cg
+	- make and break down crystal helm (need to do roughly 260 times for 99)
+	- currently need roughly 13k shards
+	- will see if we wanna go for more for 50mil
+		- depends on what else I have to afk towards the end
