@@ -3,22 +3,15 @@ Goals:
 2. 70k points
 3. Top 1k
 -----------------------
-Plan for tonight;
- - craft serp helm
- - set kingdom up for maples for fletching arrow shafts
- - do misc morytania tasks
- - more zulrah for 300kc + blowpipe + CA's
-
+Plan for tonight:
+- get belladona seed
+	- check where they drop (prob dags under lighthouse)
 
 -----------------------
 Quests to do:
-- Sins of the father
 - Shades of morton
-- Haunted mine (salve)
-- Tarns lair
 - Rum deal
 
-- Fremmenik exiles
 - Giant dwarf
 
 
@@ -26,22 +19,8 @@ Quests to do:
 PvM roadmap:
 - Can start doing ToB whenever probably
 
-- DKs for echo stuff
-	- wait until t8 to cheese
-		- make get dharoks as well for it
-	- Try and get elite clue for fast tele there
-- Attempt echo variant for 9th mastery point + ring and necklace
-
-- Zulrah for blowpipe
-	- Load blowpipe with rune and dragon darts for task
 ------------------------
 Tiranwnn:
-
-- When 75 agility (see quest rewards to get you there)
-	- 50 laps of prif agility course
-	- do lap in under 1:10
-	- pick up last memorium crystal by ladder by searching rock
-
 - finish up cg tasks:
 	- mainly the 50 kc task, rest should be easy (no prayer pot, no armour, perfect armour(may be done with echo))
 	- finish up rest of 150kc league task with echo variant
@@ -53,10 +32,8 @@ Tiranwnn:
 	- pray you get zalcano shard
 	
 - Zulrah:
-	- 300kc
-	- get blowpipe + darts to load it (rune + dragon)
-	- do sins of the father and level to 90 crafting to make fury and blood fury
-		
+	- getting fletching for darts to load blowpipe (rune + dragon): need 95 fletching
+	
 - Misc skilling:
 	- 97 herb: 100 divine super combats
 	- mine 200 runite ore
@@ -65,8 +42,6 @@ Tiranwnn:
 	- 70 mining: mine 200 soft clay
 	- 75 woodcutting: chop 50 magic logs
 	- 70 construction: move house to prif
-	- 20 farming: sweetcorn
-	- 57 farming: papaya tree in lletya
 
 - Look out for crystal imps:
 	- catch one
@@ -84,12 +59,9 @@ Tiranwnn:
 Fremmy:
  - dks:
 	- kill a mager on the way to them (currently bugged)
-	- get elite clue for easy tele
 	- drops needed:
 		- mud battlestaff
 	- kill each 300 times for final kc league task
-	- probably cba with CA's
-		- is worth 200pts so maybe
 
 - duke
 		- kc tasks: 1/50/150/300
@@ -100,36 +72,18 @@ Fremmy:
 		- full virtus
 
 - Vorkath
-	- kc tasks: 1/50/150/300
-		- use the bones for prayer
-	- all CAs
-	- kill 15 times without leaving
-	- kill 5 times without taking any damage from his special attacks 
 	- drops:
-		- dragonbone necklace
 		- dragonfire ward
 		- can drop visage for DFS
-		- avas assembler
-		- spare vorkath head to get stuff at taxadermist in canaffis
+		- extra bones to use towards 50mil prayer
 
 - Maigc:
 	- Switch to lunars:
-		- 69: moonclan tele
 		- 87: catherby tele tab
 			- need to build lectern in poh
-		- 96: spellbook swap
-		
-- Get 80 agility:
-	- 25 laps of rellekka course
-	- make penguin suit and one lap of that
-	
-- Do fremmenik exiles
-	- kill a basilisk knight
-	- get jaw and make faceguard
 
 - Misc:
 	- Catch polar kebbit
-		- get noose wand by casting hunter kit spell on lunars (2 astral + 2 earth)
 	- catch sabre tooth kebbit
 		- deadfall trap need knife + logs + 
 	- unlock access to blast furnance
@@ -146,25 +100,10 @@ Morytania tasks:
 		25/50/100
 	- get sycthe (400pts)
 		- attach both kits I already have (extra 400pt)
-	- get last justi piece (helm for 400pts)
 
 - Misc
-	- Burn 20 blisterwood logs
-		- cut 100 as well
-	- craft a snelm
-	- pet frank in darkmyer
-	- telegrab bloody bracer in sleepe
 	- mine bit of daeylt eseence to craft a rune with
-	- make long rope shortcut in darkmeyer
-		- buy 2x long ropes (bring all gp) from darkmeyer general store (need outfit)
-	- catch a swamp lizard (small net + rope)
-	- kill vyrewatch sentienal darkmeyer
-	- kill abyssal demon in slaye tower
-	- smelt steel bar in port phasmatys
-	- feed a ghast some sweets
-	- complete werewolf agility course
-		- get ring of charos:
-			- either from creature of fenenstrain quest or pickpocketing him if quest is auto completed
+		- Get 60 mining noob
 	
 - shades of morton
 	- get 100% sancticty
@@ -202,20 +141,14 @@ Morytania tasks:
 - Araxxor:
 	- Look into completing remaining CAs
 	- 300kc 
-	- aranea boots from smallies
-	
-- do haunted mine
-	- get salve amulet
-	- do lair of tarn razorlor to make it (e)
 -----------------------
 Soul wars: (CHECK THIS NUMBERS)
 - Do all the PvM tasks that drop essence first
 	- Big ones are zulrah and muspah it seems
 - Get enough essence for 99 runecrafting
 	- need roughly 70k to get to 99
-	- roughly 2k at natures then rest at bloods
 - buy 99 cape
-	- craft 50 at cosmics/death/water
+	- craft 50 at /death/water
 	
 - Start chipping away at 50mil xp
 	- need something around 270k more essence post 99
