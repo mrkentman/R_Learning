@@ -88,7 +88,6 @@ Fremmy:
 	- catch sabre tooth kebbit
 		- deadfall trap need knife + logs + 
 	- unlock access to blast furnance
-		- smelt 100 mith bars
 		- smelt 100 rune bars
 			- use the ores from the priff task
 	- kill rune dragon
@@ -100,7 +99,7 @@ Morytania tasks:
 	- kc tasks:
 		25/50/100
 	- get sycthe (400pts)
-		- attach both kits I already have (extra 400pt)
+		- attach both kits I already have (extra 400pts)
 
 - Misc
 	- mine bit of daeylt eseence to craft a rune with
