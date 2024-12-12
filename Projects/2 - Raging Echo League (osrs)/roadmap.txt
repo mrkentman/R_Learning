@@ -5,10 +5,7 @@ Goals:
 4. Longshot top 500
 -----------------------
 Plan for tonight:
-- get belladona seed
-	- check where they drop (prob dags under lighthouse)
-- fletch 100 dragon javelins
-	- get shafts from normal logs
+
 -----------------------
 Quests/diaries to do:
 - Shades of morton (need for tasks)
@@ -17,14 +14,10 @@ Quests/diaries to do:
 - Giant dwarf (not sure if needed)
 
 - Diaries:
-	Fremmy:
-		- Hard/elite
 	Varrock:
-		- hard/elite 
-	Lumbridge:
-		- easy/med/hard/elite
+		- hard 
 	Morytania:
-		- easy/med/hard/elite
+		- elite
 -----------------------
 Tiranwnn:
 - finish up cg tasks:
@@ -43,9 +36,7 @@ Tiranwnn:
 - Misc skilling:
 	- 97 herb: 100 divine super combats
 	- mine 200 runite ore
-	- 88 smith: smith 500 runite bolts (50 bars)
 	- 90 prayer: restore full prayer in prif
-	- 70 mining: mine 200 soft clay
 	- 75 woodcutting: chop 50 magic logs
 	- 70 construction: move house to prif
 
@@ -78,8 +69,8 @@ Fremmy:
 		- skeletal
 
 - duke
-		- need last axe piece
-		- need last piece of virtus (body)
+	- need last axe piece
+	- need last piece of virtus (body)
 
 - Vorkath
 	- drops:
@@ -101,19 +92,13 @@ Fremmy:
 			- need to build lectern in poh
 
 - Misc:
-	- Catch polar kebbit
-	- catch sabre tooth kebbit
-		- deadfall trap need knife + logs + 
-	- smelt 100 rune bars
-		- use the ores from the priff task
-	- kill rune dragon
+	-rune dragons:
 		- need dragon limbs (drop = pts) to make into cbow (another task)
 		- also need dragon platebody (1/1000 from rune drags)
 	- plant and harvest snapdragon at weiss
 	- get materials for weiss tele for portal nexsus
 		- 1k basalt, 1k red dust, 3k blue dust
 		- 72 construction
-	- Get granite shield from trolls on the very north part of neiznoo
 
 -----------------------
 Morytania tasks:
@@ -121,10 +106,6 @@ Morytania tasks:
 	- kc tasks:
 		50/100
 	- get any CA's that I can solo to maybe try and push for elite CA's (will be a push)
-
-- Misc
-	- mine bit of daeylt eseence to craft a rune with
-	- get lava battlestaff from abberant spectres in slayer tower
 	
 - shades of morton
 	- get 100% sancticty
@@ -135,7 +116,6 @@ Morytania tasks:
 	- kill fyre shade
 	- equip a piece of the set
 		- equip full set (mostly likely not doing)
-
 
 - Sepulchre to train agility:
 	- Task for every floor
@@ -148,8 +128,7 @@ Morytania tasks:
 	- Dharoks
 	- Guthans
 	- Karils
-	- Torags
-	- Veracs
+	- Toragss
 
 - 150 nightmare/phosanis KC
 	- Probably cant do all the CA's
@@ -171,8 +150,7 @@ Misthalin:
 
 - Fossil island:
 	- catch 150 herbivor
-	- kill fossil island wyvern
-		- get ancient wyvern shield
+	- get ancient wyvern shield
 	- volcanic mine:
 		- complete one game
 		- mine runite ore fragment
@@ -188,12 +166,6 @@ Misthalin:
 - Moss giants:
 	- get mossy keys to go for essence (1/23)
 	- get rest of ca's to push for elite
-	
-- Misc:
-	- catch 50 imps in puro puro
-	- complete demon slayer
-	- craft 50 water runes
-	- open dark chest
 -----------------------
 Karamja:
 - Inferno:
@@ -209,7 +181,7 @@ Karamja:
 -----------------------
 Soul wars: (CHECK THIS NUMBERS)
 - Do all the PvM tasks that drop essence first
-	- Big ones are zulrah and muspah it seems
+	- Big ones are muspah it seems
 - Get enough essence for 99 runecrafting
 	- need roughly 70k to get to 99
 - buy 99 cape
@@ -233,16 +205,9 @@ Misc skilling:
 	- afk thieve the rest for 50 mil
 		- currently need 57k (380 tele seeds) shards for 50 mil in smith/craft (from current lvl of 90)
 		
-- craft leather body
-- craft green dhide shield (maple + steel nails)
-- buy studded body and chaps from archer in varrock and eqiup
-- fletch 200 magic longbow(u)
-- fletch magic shield
 - fletch black dhide shield
 	- make rune nails
 	- get redwood logs from shade burnings/keys
-
-- kill abyssal leaches and whatever for large pouch and fill it
 
 - build mahogany portal
 - build games room in house
@@ -263,12 +228,6 @@ Misc skilling:
 	- 99 construction
 	- 25 magic stones (25 mil)
 
-- plant and harvest an irit
-
-- make 20 stams
-	- do lil bit of brimhaven for amylase
-	
-- mine 50 mithril
 - mine 50 addy
 - mine a shooting star
 
@@ -279,9 +238,6 @@ Misc skilling:
 - chop 75 magic (need to do at least 50 in prif)
 - forestry
 	- 2 handed axe
-	
-- magic seed from a nest
-	- keep doing birdhouse runs
 -----------------------
 Clues:
 - Beginners:
