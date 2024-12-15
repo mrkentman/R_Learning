@@ -5,7 +5,9 @@ Goals:
 4. Longshot top 500
 -----------------------
 Plan for tonight:
-
+- at work: learn phosanis nightmare/phosani
+  + afk fish
+- try nightmare when back at home
 -----------------------
 Randoms to do:
 - bee keeper
@@ -250,7 +252,7 @@ XP milestones:
 		- 99/25m/35m/50m
 	
 	prayer:
-		- 25m/35m/50m
+		- 35m/50m
 	
 	runecrafting:
 		- 99/25m/35m/50m
