@@ -5,10 +5,6 @@ Goals:
 4. Longshot top 500
 -----------------------
 Plan for tonight:
-- 300kc araxxor
-- all araxxor CAs
-- do all mahoganny homes contract tasks
-	- try and do any of the construction tasks I'm able to
 
 -----------------------
 Randoms to do:
@@ -41,11 +37,8 @@ Tiranwnn:
 	- pray you get zalcano shard
 	
 - Misc skilling:
-	- 97 herb: 100 divine super combats
-	- mine 200 runite ore
-	- 90 prayer: restore full prayer in prif
+	- mine 100 runite ore
 	- 75 woodcutting: chop 50 magic logs
-	- 70 construction: move house to prif
 
 - Look out for crystal imps:
 	- catch one
@@ -65,44 +58,19 @@ Tiranwnn:
 	- going to get lots of gp from alching tob drops if still doing hmt
 -----------------------
 Fremmy:
- - dks:
-	- kill a mager on the way to them (currently bugged)
-	- drops needed:
-		- mud battlestaff
-	- kill each 300 times for final kc league task
-	- full set of:
-		- rockshell
-		- spined
-		- skeletal
-
 - duke
-	- need last axe piece
 	- need last piece of virtus (body)
 
 - Vorkath
 	- drops:
 		- dragonfire ward
-		- can drop visage for DFS
-			- creating and equiping is worth 200 each
 		- extra bones to use towards 50mil prayer
 
 - Muspah:
-	- kill 50/150/300 times
-	- equip venator bow
-	- equip ancient scepter
+	- kill 150/300 times
 	- need 50 ancient brews (4) to make 50 forgotten brews
-	- CAs
-
-- Maigc:
-	- Switch to lunars:
-		- 87: catherby tele tab
-			- need to build lectern in poh
 
 - Misc:
-	-rune dragons:
-		- need dragon limbs (drop = pts) to make into cbow (another task)
-		- also need dragon platebody (1/1000 from rune drags)
-	- plant and harvest snapdragon at weiss
 	- get materials for weiss tele for portal nexsus
 		- 1k basalt, 1k red dust, 3k blue dust
 		- 72 construction
@@ -144,17 +112,8 @@ Morytania tasks:
 		- mace (200)
 		- staff (200)
 		- orb (400)
-
-- Araxxor:
-	- Look into completing remaining CAs
-	- 300kc 
 -----------------------
 Misthalin:
-- Tormented demons:
-	- 1/50/150/300
-	- get tormented synapse and create one of the weapons
-	- get 2x burning claws and equip
-
 - Fossil island:
 	- catch 150 herbivor
 	- get ancient wyvern shield
@@ -199,47 +158,23 @@ Soul wars: (CHECK THIS NUMBERS)
 	- can sell the bloods for extra gp as wont be needing that many runes
 -----------------------
 Slayer:
-	- 25/50/75/100 superior slayer creatures
-		- work towards this and 50mil magic at arraxytes
-		- hope for imbued heart
-			- enhance it using stuff from muspah grind
+	- 75/100 superior slayer creatures
+		- work towards this and 50mil magic and ranged at arraxytes
 -----------------------
 Misc skilling:
- - crafting and smithing:
-	- afk thieve elves for tele seeds to convert into shards
-		- need roughly 90 (86.01) for 99 (does not take into account shards from finishing zalc/cg
-	- currently need roughly 13k shards
-	- afk thieve the rest for 50 mil
-		- currently need 57k (380 tele seeds) shards for 50 mil in smith/craft (from current lvl of 90)
-		
 - fletch black dhide shield
 	- make rune nails
 	- get redwood logs from shade burnings/keys
 - get 95 for dragon darts and add to blowpipe
 
-- build mahogany portal
-- build games room in house
-	- build hoop on stick (2x oak plank)
-		- get hoop on the stick
-	- build jester (4 teak)
-		- beat him
-- build gilded altar
-	- 2 marble, 2 cloth, 4 gold leaf
-- do 10/25/50 construction contracts
-	- one expert
-- build achievement gallery
-	- build display case (10 mag, 5 molten glass, 4 steel)
 - build superior garden
 	- build spirit AND fairy ring TOGETHER
-		- spirit tree at 2x1/110 from muspah for 2x1/248 from zulrah
 - build demonic throne
 	- 99 construction
 	- 25 magic stones (25 mil)
 
-- mine 50 addy
 - mine a shooting star
 
-- catch baby imp
 - catch dragon imp
 - barehand catch lucky imp
 
@@ -248,8 +183,6 @@ Misc skilling:
 - forestry
 	- 2 handed axe
 	- rising roots
-	
-- get giant pouch and fill it
 -----------------------
 Clues:
 - Beginners:
@@ -287,19 +220,13 @@ Clues:
 -----------------------
 XP milestones:
 	Agility:
-	- 99/25m/35m/50m
+		- 99/25m/35m/50m
 
 	construcion:
 		- 99/25m/35m/50m
 	
-	cooking:
-		- 50m
-	
-	crafting:
-		- 99/25m/35m/50m
-	
 	farming:
-		- 25m/35m/50m
+		- 35m/50m
 	
 	firemaking:
 		- 99/25m/35m/50m
@@ -311,7 +238,7 @@ XP milestones:
 		- 99/25m/35m/50m
 	
 	herblore:
-		- 99/25m/35m/50m
+		- 25m/35m/50m
 	
 	hunter:
 		- 99/25m/35m/50m
@@ -323,18 +250,9 @@ XP milestones:
 		- 99/25m/35m/50m
 	
 	prayer:
-		- 99/25m/35m/50m
-	
-	ranged:
-		- 50m
+		- 25m/35m/50m
 	
 	runecrafting:
-		- 99/25m/35m/50m
-	
-	slayer:
-		- 35m/50m
-	
-	smithing:
 		- 99/25m/35m/50m
 	
 	woodcutting:
