@@ -60,8 +60,7 @@ vigenere_encode <- function(input_msg, keyword){
   #Pastes all the coded characters together to form the complete coded message
   coded_message <- paste0(df$coded_char, collapse="")
   
-  return(coded_message)
-}
+  return(coded_message)}
 
 vigenere_decode <- function(input_msg, keyword){
   
@@ -99,5 +98,4 @@ vigenere_decode <- function(input_msg, keyword){
   #Pastes all the decoded characters into a string
   decoded_message <- paste0(df$org_char, collapse="")
   
-  return(decoded_message)
-}
+  return(decoded_message)}
