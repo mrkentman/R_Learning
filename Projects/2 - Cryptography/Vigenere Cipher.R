@@ -23,6 +23,7 @@ filter_keyword <- function(keyword){
 get_char_positions <- function(char){
   as.numeric(charToRaw(char)) - as.numeric(charToRaw("a"))
 }
+#----------------------------------
 
 vigenere_encode <- function(input_msg, keyword){
   
