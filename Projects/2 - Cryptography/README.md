@@ -1,6 +1,6 @@
 <h1>Cryptography</h1>
 
-A Collection of R scripts that I've made to encode and decode various forms of cryptography
+A Collection of R scripts that I've made to encode and decode various forms of cryptography to help me practice my R coding.
 
 1 - [Caesar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher): Simple substitution cipher, where each letter is shifted down the alphabet by a fixed amount.
 
